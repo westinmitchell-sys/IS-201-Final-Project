@@ -1,0 +1,56 @@
+body {
+  font-family: 'Arial', sans-serif;  
+  background-color: #006400;      
+  color: #ffffff;                   
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+/* Use image instead */
+  background-image: url("images/Goodsoccerstadium.png");
+  background-size: cover;      
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-attachment: fixed;  
+}
+/*TITLE*/
+    .title-banner {
+        background-color: rgba(0, 80, 0, 0.8);   
+        border: 3px solid #FFD700;         
+        max-width: 900px;
+        margin: 40px auto 20px auto;
+        padding: 25px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+h2, h3 {
+  font-family: 'Verdana', sans-serif;
+  color: #FFD700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.commentary {
+  background-color: rgba(0, 80, 0, 0.8);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.centralizedobject{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
